@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class AwesomeService : SwiftableStruct {
+class AwesomeService : BeSwiftable {
 
     let value:Int
 
@@ -56,6 +56,7 @@ class ViewController: UIViewController {
         awesomeService = Container.resolve(AwesomeService.self)
         let val = self.awesomeService!.value
         print(val)
+
     }
 
 

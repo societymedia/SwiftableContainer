@@ -12,32 +12,54 @@ public enum ContainerScope {
 
 
 public protocol Swiftable {
-
-    typealias ResolvableType
     init()
+
 }
 
-public class SwiftableStruct : Swiftable, Any {
+public class BeSwiftable: Swiftable {
+    var title: String?
+    var pagerank: String?
+    var url: String?
 
-    public typealias ResolvableType = AnyClass
+    lazy var mirror: Mirror =  {
+          let children = DictionaryLiteral<String, Any>(dictionaryLiteral:
+        ("title", self.title), ("pagerank", self.pagerank),
+                ("url", self.url))
+
+
+        return Mirror.init(BeSwiftable.self, children: children,
+                displayStyle: Mirror.DisplayStyle.Class,
+                ancestorRepresentation:.Suppressed)
+    }()
+
+
+
+
     public required init() {
-
     }
 
+
 }
 
-public class TestClassA : SwiftableStruct { }
+public class TestClassA: BeSwiftable {
 
-public class TestClassB : SwiftableStruct { }
+ public var item: String = "name"
 
-public class TestClassC : SwiftableStruct { }
+    public func yo() {
 
-public class TestClassD : SwiftableStruct { }
+    }
+}
+
+public class TestClassB: BeSwiftable { }
+
+public class TestClassC: BeSwiftable { }
+
+public class TestClassD: BeSwiftable { }
 
 public class Container {
 
     private static let sharedInstance = Container()
-    private var container = Dictionary<String, () -> SwiftableStruct>()
+    private var container = Dictionary<String, () -> BeSwiftable>()
 
     init() { }
 
@@ -46,24 +68,20 @@ public class Container {
         return sharedInstance.container.count
     }
 
-    class public func bind<T:SwiftableStruct>(bindableType: T.Type) {
-
-        let instance = T()
-
-        let myStr = String(bindableType)
-
-        sharedInstance.container[myStr] = {
-            return instance
-        }
+    class public func bind<T:BeSwiftable>(bindableType: T.Type) {
+        Container.bind(bindableType, withScope: .Singleton)
     }
 
-    class public func bind<T:SwiftableStruct>(bindableType: T.Type, withScope scope:ContainerScope) {
+    class public func bind<T:BeSwiftable>(bindableType: T.Type, withScope scope:ContainerScope) {
 
         let myStr = String(bindableType)
 
         if scope == .Singleton {
             let instance = T()
             sharedInstance.container[myStr] = {
+                let m = instance.mirror
+                let su = m.superclassMirror()
+
                 return instance
             }
         } else {

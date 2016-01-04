@@ -49,7 +49,5 @@
     	<string>UIInterfaceOrientationLandscapeLeft</string>
     	<string>UIInterfaceOrientationLandscapeRight</string>
     </array>
-    <key>UIMainStoryboardFile</key>
-    <string>Main</string>
 </dict>
 </plist>
