@@ -43,5 +43,5 @@ Pod::Spec.new do |s|
   s.source_files = "SwiftableContainer/**/*.{swift}"
 
   # 9
-  s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib}"
+  s.resources = "SwiftableContainer/**/*.{png,jpeg,jpg,storyboard,xib}"
 end
