@@ -17,10 +17,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
+    private func setupServices() {
+        Container.bind(AwesomeService.self, withScope: .Transient)
+    }
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
+
+        setupServices()
+
     return true
     }
 

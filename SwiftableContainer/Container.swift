@@ -69,11 +69,9 @@ public class Container {
 
     class public func bind<T:SwiftableStruct>(bindableType: T.Type, withScope scope:ContainerScope) {
 
-
         let myStr = String(bindableType)
 
         if scope == .Singleton {
-
             let instance = T()
             sharedInstance.container[myStr] = {
                 return instance
