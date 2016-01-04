@@ -223,6 +223,7 @@
 		27DDADC9781A762CABCD8034 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0720;
 				ORGANIZATIONNAME = Societymedia;
 			};
 			buildConfigurationList = 27DDA7F3817B20D8093668BD /* Build configuration list for PBXProject "SwiftableContainer" */;
