@@ -26,23 +26,13 @@ public class SwiftableStruct : Swiftable, Any {
 
 }
 
-public class TestClassA : SwiftableStruct {
+public class TestClassA : SwiftableStruct { }
 
-}
+public class TestClassB : SwiftableStruct { }
 
-public class TestClassB : SwiftableStruct {
+public class TestClassC : SwiftableStruct { }
 
-}
-
-public class TestClassC : SwiftableStruct {
-
-}
-
-public class TestClassD : SwiftableStruct {
-
-}
-
-//private let __ContainerSharedInstance = Container()
+public class TestClassD : SwiftableStruct { }
 
 public class Container {
 
@@ -81,10 +71,6 @@ public class Container {
                 return T()
             }
         }
-
-
-
-
     }
 
     class public func resolve<T>(swiftType: T.Type) -> T {
