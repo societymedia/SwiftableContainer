@@ -13,6 +13,7 @@
 		27DDA157427582AE281BA673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DDA728B02BC1D3B4F98DB2 /* LaunchScreen.storyboard */; };
 		27DDA161C9141F69A91DB41C /* SwiftableContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDA4EC3F0C902CB7AC99D0 /* SwiftableContainerTests.swift */; };
 		27DDA21197DD551E05A2A307 /* SwiftableContainer.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 27DDAEF17AC2E730568EEEBE /* SwiftableContainer.podspec */; };
+		27DDA270DD22B9D8A6453506 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 27DDAFBE227D7C2EB098BAA2 /* LICENSE */; };
 		27DDA3B70FDEB6B6F26B4CE6 /* ContainerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDA3F914ED08EAC0DEE36B /* ContainerSpec.swift */; };
 		27DDA4286778B1BB55EA3B07 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27DDABE25A99CFF6FBA83978 /* Info.plist */; };
 		27DDA43E6DEDBF707CE300DB /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDA1F74BF54DC718AC55F5 /* Container.swift */; };
@@ -22,7 +23,6 @@
 		27DDA57FA9784415E741BA59 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27DDAA4C6E255FD4608314F4 /* Info.plist */; };
 		27DDA5A086B420144233B6EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDAAD451619414905F92F3 /* AppDelegate.swift */; };
 		27DDA8101EC9F0F4C229118D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27DDA3D53269860FC6E4A776 /* Info.plist */; };
-		27DDA850944072C86D24BA54 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 27DDA7CD0E2FD9FE4555AA43 /* LICENSE */; };
 		27DDAAD32F656F2190295313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDACD9B57F4559CFC5FAF0 /* ViewController.swift */; };
 		27DDAB6C686F694CC85AB5E1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 27DDA9DAE11C0DB02D71076A /* README.md */; };
 /* End PBXBuildFile section */
@@ -55,9 +55,8 @@
 		27DDA683CDF9133DA0F4280B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27DDA68EA0FF211FD7ECE486 /* SwiftableContainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftableContainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DDA6F9280210059BCC5882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		27DDA71BF764F48DBF416761 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		27DDA71BF764F48DBF416761 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		27DDA7A1218995AE48C9EB81 /* SwiftableContainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftableContainerUITests.swift; sourceTree = "<group>"; };
-		27DDA7CD0E2FD9FE4555AA43 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		27DDA88369380CA839DE732C /* SwiftableContainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftableContainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DDA9DAE11C0DB02D71076A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		27DDAA4C6E255FD4608314F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -66,6 +65,7 @@
 		27DDACD9B57F4559CFC5FAF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		27DDADDEDF7F223A4D52AD26 /* SwiftableContainer.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = SwiftableContainer.podspec; sourceTree = "<group>"; };
 		27DDAEF17AC2E730568EEEBE /* SwiftableContainer.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = SwiftableContainer.podspec; sourceTree = "<group>"; };
+		27DDAFBE227D7C2EB098BAA2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		993918F054D9540DB83CF196 /* Pods-SwiftableContainerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftableContainerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftableContainerTests/Pods-SwiftableContainerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E31C0B16823037FE45372E5A /* Pods-SwiftableContainerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftableContainerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftableContainerTests/Pods-SwiftableContainerTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +106,7 @@
 				AEEB9B7ED0887085A6BC1C5E /* Pods */,
 				E3DEFC29269C75484E5BF690 /* Frameworks */,
 				27DDAEF17AC2E730568EEEBE /* SwiftableContainer.podspec */,
+				27DDAFBE227D7C2EB098BAA2 /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,7 +149,6 @@
 				27DDA2B2E169543B82FCEB15 /* Main.storyboard */,
 				27DDACD9B57F4559CFC5FAF0 /* ViewController.swift */,
 				27DDA1F74BF54DC718AC55F5 /* Container.swift */,
-				27DDA7CD0E2FD9FE4555AA43 /* LICENSE */,
 				27DDADDEDF7F223A4D52AD26 /* SwiftableContainer.podspec */,
 				27DDA9DAE11C0DB02D71076A /* README.md */,
 				27DDA71BF764F48DBF416761 /* LICENSE */,
@@ -285,10 +285,10 @@
 				27DDA0116B7DD5AFAC0A3FA5 /* Assets.xcassets in Resources */,
 				27DDA157427582AE281BA673 /* LaunchScreen.storyboard in Resources */,
 				27DDA535A3C8EA5D84F9C8CF /* Main.storyboard in Resources */,
-				27DDA850944072C86D24BA54 /* LICENSE in Resources */,
 				27DDA45C2E1C49D615625B49 /* SwiftableContainer.podspec in Resources */,
 				27DDA21197DD551E05A2A307 /* SwiftableContainer.podspec in Resources */,
 				27DDA4B7A474D26D5953742D /* LICENSE in Resources */,
+				27DDA270DD22B9D8A6453506 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
