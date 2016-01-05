@@ -79,9 +79,6 @@ public class Container {
         if scope == .Singleton {
             let instance = T()
             sharedInstance.container[myStr] = {
-                let m = instance.mirror
-                let su = m.superclassMirror()
-
                 return instance
             }
         } else {
