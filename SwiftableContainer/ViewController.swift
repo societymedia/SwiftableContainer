@@ -28,7 +28,7 @@ class ViewController2: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
 
-        awesomeService = Container.resolve(AwesomeService.self)
+        awesomeService = SwiftableContainer.resolve(AwesomeService.self)
         let val = self.awesomeService!.value
         print(val)
     }
@@ -53,7 +53,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
 
 
-        awesomeService = Container.resolve(AwesomeService.self)
+        awesomeService = SwiftableContainer.resolve(AwesomeService.self)
         let val = self.awesomeService!.value
         print(val)
 

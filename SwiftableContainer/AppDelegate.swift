@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     private func setupServices() {
-        Container.bind(AwesomeService.self, withScope: .Transient)
+        SwiftableContainer.bind(AwesomeService.self, withScope: .Transient)
     }
 
 

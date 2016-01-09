@@ -5,41 +5,9 @@
 
 import Foundation
 
-public enum ContainerScope {
-    case Singleton
-    case Transient
-}
-
-
-public protocol Swiftable {
-    init()
-
-}
-
-public class BeSwiftable: Swiftable {
-    var title: String?
-    var pagerank: String?
-    var url: String?
-
-    lazy var mirror: Mirror =  {
-          let children = DictionaryLiteral<String, Any>(dictionaryLiteral:
-        ("title", self.title), ("pagerank", self.pagerank),
-                ("url", self.url))
-
-
-        return Mirror.init(BeSwiftable.self, children: children,
-                displayStyle: Mirror.DisplayStyle.Class,
-                ancestorRepresentation:.Suppressed)
-    }()
 
 
 
-
-    public required init() {
-    }
-
-
-}
 
 public class TestClassA: BeSwiftable {
 
@@ -56,9 +24,9 @@ public class TestClassC: BeSwiftable { }
 
 public class TestClassD: BeSwiftable { }
 
-public class Container {
+public class SwiftableContainer {
 
-    private static let sharedInstance = Container()
+    private static let sharedInstance = SwiftableContainer()
     private var container = Dictionary<String, () -> BeSwiftable>()
 
     init() { }
@@ -69,10 +37,10 @@ public class Container {
     }
 
     class public func bind<T:BeSwiftable>(bindableType: T.Type) {
-        Container.bind(bindableType, withScope: .Singleton)
+        SwiftableContainer.bind(bindableType, withScope: .Singleton)
     }
 
-    class public func bind<T:BeSwiftable>(bindableType: T.Type, withScope scope:ContainerScope) {
+    class public func bind<T:BeSwiftable>(bindableType: T.Type, withScope scope: SwiftableContainerScope) {
 
         let myStr = String(bindableType)
 

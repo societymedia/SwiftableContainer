@@ -9,22 +9,21 @@
 /* Begin PBXBuildFile section */
 		2147DF3CB63EA41587F5B09A /* Pods_SwiftableContainerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24B83DE1ABA0BEE51E3F2CF1 /* Pods_SwiftableContainerTests.framework */; };
 		27DDA0116B7DD5AFAC0A3FA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27DDA683CDF9133DA0F4280B /* Assets.xcassets */; };
-		27DDA08363297FBFA10958DD /* SwiftableContainerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDA7A1218995AE48C9EB81 /* SwiftableContainerUITests.swift */; };
 		27DDA157427582AE281BA673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DDA728B02BC1D3B4F98DB2 /* LaunchScreen.storyboard */; };
-		27DDA161C9141F69A91DB41C /* SwiftableContainerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDA4EC3F0C902CB7AC99D0 /* SwiftableContainerTests.swift */; };
 		27DDA21197DD551E05A2A307 /* SwiftableContainer.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 27DDAEF17AC2E730568EEEBE /* SwiftableContainer.podspec */; };
 		27DDA270DD22B9D8A6453506 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 27DDAFBE227D7C2EB098BAA2 /* LICENSE */; };
-		27DDA3B70FDEB6B6F26B4CE6 /* ContainerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDA3F914ED08EAC0DEE36B /* ContainerSpec.swift */; };
+		27DDA3B70FDEB6B6F26B4CE6 /* SwiftableContainerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDA3F914ED08EAC0DEE36B /* SwiftableContainerSpec.swift */; };
 		27DDA4286778B1BB55EA3B07 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27DDABE25A99CFF6FBA83978 /* Info.plist */; };
-		27DDA43E6DEDBF707CE300DB /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDA1F74BF54DC718AC55F5 /* Container.swift */; };
-		27DDA45C2E1C49D615625B49 /* SwiftableContainer.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 27DDADDEDF7F223A4D52AD26 /* SwiftableContainer.podspec */; };
 		27DDA4B7A474D26D5953742D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 27DDA71BF764F48DBF416761 /* LICENSE */; };
 		27DDA535A3C8EA5D84F9C8CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27DDA2B2E169543B82FCEB15 /* Main.storyboard */; };
-		27DDA57FA9784415E741BA59 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27DDAA4C6E255FD4608314F4 /* Info.plist */; };
 		27DDA5A086B420144233B6EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDAAD451619414905F92F3 /* AppDelegate.swift */; };
 		27DDA8101EC9F0F4C229118D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 27DDA3D53269860FC6E4A776 /* Info.plist */; };
+		27DDA844A2B86D3B72E616D1 /* SwiftableContainerScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDA32ECDB3B1B834137677 /* SwiftableContainerScope.swift */; };
+		27DDA94BC599C1ED4D5C85B5 /* Swiftable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDAFB1C3D5E36210F52D96 /* Swiftable.swift */; };
+		27DDA9B6FBFC69703FA77336 /* SwiftableContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDA77F0C8A8FFE9E92121E /* SwiftableContainer.swift */; };
 		27DDAAD32F656F2190295313 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDACD9B57F4559CFC5FAF0 /* ViewController.swift */; };
 		27DDAB6C686F694CC85AB5E1 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 27DDA9DAE11C0DB02D71076A /* README.md */; };
+		27DDAFDF377726AEBE0AF8F3 /* BeSwiftable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DDA00F3E83C74F7997B439 /* BeSwiftable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,25 +45,24 @@
 
 /* Begin PBXFileReference section */
 		24B83DE1ABA0BEE51E3F2CF1 /* Pods_SwiftableContainerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftableContainerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		27DDA1F74BF54DC718AC55F5 /* Container.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		27DDA00F3E83C74F7997B439 /* BeSwiftable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BeSwiftable.swift; sourceTree = "<group>"; };
+		27DDA32ECDB3B1B834137677 /* SwiftableContainerScope.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftableContainerScope.swift; sourceTree = "<group>"; };
 		27DDA3D53269860FC6E4A776 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
-		27DDA3F914ED08EAC0DEE36B /* ContainerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerSpec.swift; sourceTree = "<group>"; };
-		27DDA4EC3F0C902CB7AC99D0 /* SwiftableContainerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftableContainerTests.swift; sourceTree = "<group>"; };
+		27DDA3F914ED08EAC0DEE36B /* SwiftableContainerSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftableContainerSpec.swift; sourceTree = "<group>"; };
 		27DDA5A857BA4CF4EB3D14DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27DDA5B10EBCD9AFB92D30D7 /* SwiftableContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftableContainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DDA683CDF9133DA0F4280B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27DDA68EA0FF211FD7ECE486 /* SwiftableContainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftableContainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DDA6F9280210059BCC5882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27DDA71BF764F48DBF416761 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		27DDA7A1218995AE48C9EB81 /* SwiftableContainerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftableContainerUITests.swift; sourceTree = "<group>"; };
+		27DDA77F0C8A8FFE9E92121E /* SwiftableContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftableContainer.swift; sourceTree = "<group>"; };
 		27DDA88369380CA839DE732C /* SwiftableContainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftableContainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DDA9DAE11C0DB02D71076A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
-		27DDAA4C6E255FD4608314F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		27DDAAD451619414905F92F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27DDABE25A99CFF6FBA83978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		27DDACD9B57F4559CFC5FAF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		27DDADDEDF7F223A4D52AD26 /* SwiftableContainer.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = SwiftableContainer.podspec; sourceTree = "<group>"; };
 		27DDAEF17AC2E730568EEEBE /* SwiftableContainer.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = SwiftableContainer.podspec; sourceTree = "<group>"; };
+		27DDAFB1C3D5E36210F52D96 /* Swiftable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftable.swift; sourceTree = "<group>"; };
 		27DDAFBE227D7C2EB098BAA2 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		993918F054D9540DB83CF196 /* Pods-SwiftableContainerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftableContainerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftableContainerTests/Pods-SwiftableContainerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E31C0B16823037FE45372E5A /* Pods-SwiftableContainerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftableContainerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftableContainerTests/Pods-SwiftableContainerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,7 +100,6 @@
 				27DDACCFCEB9B9AAB626E500 /* Products */,
 				27DDAE94E0B9E31196314C7B /* SwiftableContainer */,
 				27DDA56E7F169B6D8311C219 /* SwiftableContainerTests */,
-				27DDAB1CC84724C4DD4093DA /* SwiftableContainerUITests */,
 				AEEB9B7ED0887085A6BC1C5E /* Pods */,
 				E3DEFC29269C75484E5BF690 /* Frameworks */,
 				27DDAEF17AC2E730568EEEBE /* SwiftableContainer.podspec */,
@@ -110,23 +107,21 @@
 			);
 			sourceTree = "<group>";
 		};
+		27DDA18084A4DA5E55E3F793 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				27DDAFB1C3D5E36210F52D96 /* Swiftable.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		27DDA56E7F169B6D8311C219 /* SwiftableContainerTests */ = {
 			isa = PBXGroup;
 			children = (
 				27DDA3D53269860FC6E4A776 /* Info.plist */,
-				27DDA4EC3F0C902CB7AC99D0 /* SwiftableContainerTests.swift */,
-				27DDA3F914ED08EAC0DEE36B /* ContainerSpec.swift */,
+				27DDA3F914ED08EAC0DEE36B /* SwiftableContainerSpec.swift */,
 			);
 			path = SwiftableContainerTests;
-			sourceTree = "<group>";
-		};
-		27DDAB1CC84724C4DD4093DA /* SwiftableContainerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				27DDAA4C6E255FD4608314F4 /* Info.plist */,
-				27DDA7A1218995AE48C9EB81 /* SwiftableContainerUITests.swift */,
-			);
-			path = SwiftableContainerUITests;
 			sourceTree = "<group>";
 		};
 		27DDACCFCEB9B9AAB626E500 /* Products */ = {
@@ -139,6 +134,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		27DDAE147DF5A0068EA57178 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				27DDA32ECDB3B1B834137677 /* SwiftableContainerScope.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		27DDAE94E0B9E31196314C7B /* SwiftableContainer */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,10 +151,12 @@
 				27DDAAD451619414905F92F3 /* AppDelegate.swift */,
 				27DDA2B2E169543B82FCEB15 /* Main.storyboard */,
 				27DDACD9B57F4559CFC5FAF0 /* ViewController.swift */,
-				27DDA1F74BF54DC718AC55F5 /* Container.swift */,
-				27DDADDEDF7F223A4D52AD26 /* SwiftableContainer.podspec */,
 				27DDA9DAE11C0DB02D71076A /* README.md */,
 				27DDA71BF764F48DBF416761 /* LICENSE */,
+				27DDA77F0C8A8FFE9E92121E /* SwiftableContainer.swift */,
+				27DDA18084A4DA5E55E3F793 /* Protocols */,
+				27DDAE147DF5A0068EA57178 /* Enums */,
+				27DDA00F3E83C74F7997B439 /* BeSwiftable.swift */,
 			);
 			path = SwiftableContainer;
 			sourceTree = "<group>";
@@ -265,7 +270,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27DDA57FA9784415E741BA59 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +289,6 @@
 				27DDA0116B7DD5AFAC0A3FA5 /* Assets.xcassets in Resources */,
 				27DDA157427582AE281BA673 /* LaunchScreen.storyboard in Resources */,
 				27DDA535A3C8EA5D84F9C8CF /* Main.storyboard in Resources */,
-				27DDA45C2E1C49D615625B49 /* SwiftableContainer.podspec in Resources */,
 				27DDA21197DD551E05A2A307 /* SwiftableContainer.podspec in Resources */,
 				27DDA4B7A474D26D5953742D /* LICENSE in Resources */,
 				27DDA270DD22B9D8A6453506 /* LICENSE in Resources */,
@@ -347,8 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27DDA161C9141F69A91DB41C /* SwiftableContainerTests.swift in Sources */,
-				27DDA3B70FDEB6B6F26B4CE6 /* ContainerSpec.swift in Sources */,
+				27DDA3B70FDEB6B6F26B4CE6 /* SwiftableContainerSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,8 +360,11 @@
 			files = (
 				27DDA5A086B420144233B6EC /* AppDelegate.swift in Sources */,
 				27DDAAD32F656F2190295313 /* ViewController.swift in Sources */,
-				27DDA43E6DEDBF707CE300DB /* Container.swift in Sources */,
 				27DDAB6C686F694CC85AB5E1 /* README.md in Sources */,
+				27DDA9B6FBFC69703FA77336 /* SwiftableContainer.swift in Sources */,
+				27DDA94BC599C1ED4D5C85B5 /* Swiftable.swift in Sources */,
+				27DDA844A2B86D3B72E616D1 /* SwiftableContainerScope.swift in Sources */,
+				27DDAFDF377726AEBE0AF8F3 /* BeSwiftable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +372,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27DDA08363297FBFA10958DD /* SwiftableContainerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
