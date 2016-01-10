@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
 
   # 6 - Replace this URL with your own Git URL from "Quick Setup"
-  s.source = { :git => "https://github.com/societymedia/SwiftableContainer.git", :tag => "#{s.version}"}
+  s.source = { :git => "https://github.com/societymedia/SwiftableContainer.git", :tag => "0.1.0"}
 
   # For example,
   # s.source = { :git => "https://github.com/JRG-Developer/RWPickFlavor.git", :tag => "#{s.version}"}
