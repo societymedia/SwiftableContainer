@@ -54,7 +54,6 @@
 		27DDA6F9280210059BCC5882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27DDA71BF764F48DBF416761 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		27DDA77F0C8A8FFE9E92121E /* SwiftableContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftableContainer.swift; sourceTree = "<group>"; };
-		27DDA88369380CA839DE732C /* SwiftableContainerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftableContainerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27DDA9DAE11C0DB02D71076A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		27DDAAD451619414905F92F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27DDABE25A99CFF6FBA83978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
@@ -127,7 +126,6 @@
 			children = (
 				27DDA5B10EBCD9AFB92D30D7 /* SwiftableContainer.app */,
 				27DDA68EA0FF211FD7ECE486 /* SwiftableContainerTests.xctest */,
-				27DDA88369380CA839DE732C /* SwiftableContainerUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -231,7 +229,6 @@
 			);
 			name = SwiftableContainerUITests;
 			productName = SwiftableContainerUITests;
-			productReference = 27DDA88369380CA839DE732C /* SwiftableContainerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
